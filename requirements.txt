@@ -6,3 +6,4 @@ dj-database-url
 dj-static
 whitenoise
 wsgiref
+waitress
