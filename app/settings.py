@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '*2q2*+ec&rw2i)z&sjnpu-0g-9g85&$!qw@z5w8^ymr4@iq%8h'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['zigmu.herokuapp.com',]
 
 
 # Application definition

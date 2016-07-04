@@ -2,7 +2,7 @@ from app.settings import *
 import dj_database_url
 
 #settings for production 
-ALLOWWED_HOSTS =['zigmu.herokuapp.com']
+ALLOWWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS')
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO','https')
 
