@@ -1,0 +1,8 @@
+Django==1.9.7
+virtualenv==15.0.2
+psycopg2
+gunicorn
+dj-database-url
+dj-static
+whitenoise
+wsgiref
